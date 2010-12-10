@@ -1,0 +1,8 @@
+.DS_Store
+.coverage
+*.pyo
+*.pyc
+*.log
+*.swp
+*.swo
+*.un~

@@ -1,0 +1,9 @@
+{% load clippy_tags %}
+<html>
+<head>
+  <title>Copy my repo</title>
+</head>
+<body>
+  <label for="clone_url">Clone my repo: </label><input type="text" name="clone_url" value="{{ repo_url }}" id="clone_url"> {{ repo_url|clippy }}
+</body>
+</html>
